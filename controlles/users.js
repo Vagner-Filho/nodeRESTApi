@@ -1,4 +1,16 @@
-
+import { v4 as uuidv4 } from 'uuid';
+let users = [
+    // {
+    //     firstName: "Jane",
+    //     lastName: "Doe",
+    //     age: 22
+    // },
+    // {
+    //     firstName: "John",
+    //     lastName: "Doe",
+    //     age: 29
+    // }
+];
 export const createUser = (request, response) => {
     const newUser = request.body;
 
